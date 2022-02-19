@@ -1,7 +1,7 @@
 # C# questions and answers
 
 ## 1. What is the difference between `class` and `struct`?
-> class&#8594;
+> **class&#8594;**
 > 
 > struct&#8594;
 > 
