@@ -34,6 +34,7 @@
 > `AssemblyB` references `AssemblyA` and uses these values. Upon compilation:<br>
 >   1. In case of `ConstantInt`, the value&#8594;`10` is _baked into_ the `AssemblyB`'s IL, means if in future I update `ConstantInt` to 20, **_AssemblyB would still have 10 till I recompile it_**.<br>
 >   2. In case of `ReadonlyInt`, it is like a `ref` to a memory location. This means that the value is not baked into the `AssemblyB`'s IL and if in future memory location is updated, `AssemblyB` gets the new value without recompilation. So if `ReadonlyInt` is updated to 7, you only need to compile `AssemblyA`, and all clients do not need to be recompiled.
+---
 
 _References&#8594;_
 1. [_Difference between const and readonly in C#_](https://stackoverflow.com/questions/55984/what-is-the-difference-between-const-and-readonly-in-c#answers-header)
