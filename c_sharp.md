@@ -5,6 +5,8 @@
 > 
 > struct&#8594;
 > 
+---
+
 ## 2. What is the difference between `const` and `readonly`?
 > const&#8594;<br>
 > 1. Constants are implicitly `static`, you can use `ClassName.ConstantName` notation to access them.<br>
