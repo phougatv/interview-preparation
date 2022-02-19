@@ -23,10 +23,10 @@
 > **A subtle difference&#8594;**<br>
 > Consider a class defined in `AssemblyA`:<br>
 > ```public class ConstVsReadonly
-> {<br>
->    public const int ConstantInt = 10;`<br>
->    public readonly int ReadonlyInt = 44;`<br>
-> }<br>
+> {
+>    public const int ConstantInt = 10;
+>    public readonly int ReadonlyInt = 44;
+> }
 > ```
 > `AssemblyB` references `AssemblyA` and uses these values. Upon compilation:<br>
 >   1. In case of `ConstantInt`, the value&#8594;`10` is _baked into_ the `AssemblyB`'s IL, means if in future I update `ConstantInt` to 20, **_AssemblyB would still have 10 till I recompile it_**.<br>
