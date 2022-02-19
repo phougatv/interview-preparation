@@ -1,11 +1,11 @@
 # C# questions and answers
 
-1. What is the difference between `class` and `struct`?
+## 1. What is the difference between _class_ and _struct_?
 > `class`&#8594;
 > 
 > `struct`&#8594;
 > 
-2. What is the difference between `const` and `readonly`?
+## 2. What is the difference between `const` and `readonly`?
 > `const`&#8594;<br>
 > 1. Constants are implicitly `static`, you can use `ClassName.ConstantName` notation to access them.<br>
 > 2. Use it to declare a constant field or constant local. They are not variables and cannot be modified, don't create a constant to represent any information that you expect to change at any time.<br>
