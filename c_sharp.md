@@ -22,7 +22,8 @@
 >
 > **A subtle difference&#8594;**<br>
 > Consider a class defined in `AssemblyA`:<br>
-> ```public class ConstVsReadonly
+> ```
+> public class ConstVsReadonly
 > {
 >    public const int ConstantInt = 10;
 >    public readonly int ReadonlyInt = 44;
