@@ -1,10 +1,11 @@
 # C# questions and answers
 
-### 1. What is the difference between **_class_** and _struct_?
+## 1. What is the difference between _class_ and _struct_?
 > class&#8594;
 > ---
 > 
-> `struct`&#8594;
+> struct&#8594;
+> ---
 > 
 ## 2. What is the difference between `const` and `readonly`?
 > `const`&#8594;<br>
