@@ -11,7 +11,7 @@
 > **const&#8594;**<br>
 > 1. Constants are implicitly `static`, you can use `ClassName.ConstantName` notation to access them.<br>
 > 2. Use it to declare a constant field or constant local. They are not variables and cannot be modified, don't create a constant to represent any information that you expect to change at any time.<br>
-> 3. If you're confident that the value of the constant won't change, use a `const`. Example: `public const int GMS_IN_A_KG = 1000;`
+> 3. If you're confident that the value of the constant won't change, use a `const`. Example: `public const int GRAMS_IN_A_KG = 1000;`
 > 
 > **readonly&#8594;**<br>
 > 1. Readonly is instance type, unless you explicitly specifies it `static`.<br>
