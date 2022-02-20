@@ -17,7 +17,7 @@
   > When the runtime allows passing the boundaries between managed and unmanaged world, it is called **interoprability** or **interop**.
 
 ### 1.2 [Automatic Memory Management](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#automatic-memory-management)
-> 
+> It is a service provided by CLR during [Managed Execution](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#managed-execution-process).
 
 ### Value / Reference types memory allocation
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
