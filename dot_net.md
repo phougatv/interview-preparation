@@ -1,6 +1,6 @@
 # .NET questions and answers
 
-## [^1.] Memory Management
+## [^1]: Memory Management
 
 ### 1.1 [What is _"Managed Code"_?](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#what-is-managed-code)
 > Code whose execution is managed by a runtime (_in this case CLR, regardless of the implementation for e.g. Mono, .NET Framework, .NET Core/.NET 5+_) is called **_managed code_**.<br/>
