@@ -12,6 +12,9 @@
 > IL (intermediate language) is a product of compilation of code written in high-level .NET languages.<br/>
 > Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
 
+### 1.3 What is _"Unmanaged code interoperability"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
+> 
+
 ### Value / Reference types memory allocation
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
 > [The Stack Is An Implementation Detail, Part One](https://ericlippert.com/2009/04/27/the-stack-is-an-implementation-detail-part-one/)<br/>
