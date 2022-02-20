@@ -1,12 +1,16 @@
 # .NET questions and answers
 
 ## Memory management - [ref](https://docs.microsoft.com/en-us/dotnet/standard/managed-code)
-### What is _"managed code"_?
+### What is _"Managed Code"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#what-is-managed-code)
 > Code whose execution is managed by a runtime (_in this case CLR, regardless of the implementation for e.g. Mono, .NET Framework, .NET Core/.NET 5+_) is called **_managed code_**.<br/>
 > Managed code is written in one of the high-level languages that can be run on top of .NET such as C#, F# and others.
 > <br/>
 > <br/>
 > CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few.
+
+### What is _"Intermediate Language"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
+> Code written in high-level .NET languages, upon compilation generates binary made out of IL (intermediate language).<br/>
+> Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
 
 ### Value / Reference types memory allocation
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
