@@ -9,16 +9,16 @@
 > <br/>
 > CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few...[more](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#what-is-managed-code)
 
-#### 1.1.1 [Intermediate Language](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
+#### 1.1.1 Intermediate Language
 > IL (intermediate language) is a product of compilation of code written in high-level .NET languages.<br/>
-> Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
+> Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL)....[more](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
 
-#### 1.1.2 [Unmanaged code interoperability](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
-> When the runtime allows passing the boundaries between managed and unmanaged world, it is called **interoprability** or **interop**.
+#### 1.1.2 Unmanaged code interoperability
+> When the runtime allows passing the boundaries between managed and unmanaged world, it is called **interoprability** or **interop**...[more](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
 
-### 1.2 [Automatic Memory Management](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#automatic-memory-management)
+### 1.2 Automatic Memory Management
 > It is a service provided by CLR during [Managed Execution](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#managed-execution-process).
-> The CLR's GC (garbage collector) manages the allocation and release of memory for an application.
+> The CLR's GC (garbage collector) manages the allocation and release of memory for an application...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#automatic-memory-management)
 
 #### 1.2.1 [Allocating Memory](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#allocating-memory)
 > Upon initialization of a new process, the CLR reserves a contiguous region of address space for the process.<br/>
