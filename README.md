@@ -4,6 +4,6 @@ This repository contains the questions (and almost all the answers) I came acros
 ## Classification
 
 1. [C#](https://github.com/phougatv/interview-preparation/blob/main/c_sharp.md)
-2. .NET
+2. [.NET](https://github.com/phougatv/interview-preparation/blob/main/dot_net)
 3. MSSQL Server
 4. MongoDB
