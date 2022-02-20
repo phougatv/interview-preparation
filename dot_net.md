@@ -11,3 +11,4 @@
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
 > [The Stack Is An Implementation Detail, Part One](https://ericlippert.com/2009/04/27/the-stack-is-an-implementation-detail-part-one/)<br/>
 > [The Stack Is An Implementation Detail, Part Two](https://ericlippert.com/2009/05/04/the-stack-is-an-implementation-detail-part-two/)<br/>
+> [Allocating on the stack or the heap](https://devblogs.microsoft.com/dotnet/allocating-on-the-stack-or-the-heap/)
