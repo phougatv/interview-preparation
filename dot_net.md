@@ -20,13 +20,19 @@
 > It is a service provided by CLR during [Managed Execution](https://docs.microsoft.com/en-us/dotnet/standard/managed-execution-process#managed-execution-process).
 > The CLR's GC (garbage collector) manages the allocation and release of memory for an application...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#automatic-memory-management)
 
-#### 1.2.1 [Allocating Memory](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#allocating-memory)
+#### 1.2.1 Allocating Memory
 > Upon initialization of a new process, the CLR reserves a contiguous region of address space for the process.<br/>
 > This reserved address space is called the managed heap. The managed heap maintains a pointer to the address where the next object in the heap will be allocated. Initially, this pointer is set to the managed heap's base address.<br/>
-> All [reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types) are allocated on the managed heap.
-#### 1.2.2 [Releasing Memory](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory)
-#### 1.2.3 [Generations and Performance](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#generations-and-performance)
-#### 1.2.4 [Releasing Memory for Unmanaged Resources](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory-for-unmanaged-resources)
+> All [reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types) are allocated on the managed heap...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#allocating-memory)
+
+#### 1.2.2 Releasing Memory
+> ...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory)
+
+#### 1.2.3 Generations and Performance
+> ...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#generations-and-performance)
+
+#### 1.2.4 Releasing Memory for Unmanaged Resources
+> ...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory-for-unmanaged-resources)
 
 ### Value / Reference types memory allocation
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
