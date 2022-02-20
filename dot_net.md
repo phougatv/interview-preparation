@@ -8,11 +8,11 @@
 > <br/>
 > CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few.
 
-### 1.2 What is _"Intermediate Language"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
+#### 1.1.1 What is _"Intermediate Language"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
 > IL (intermediate language) is a product of compilation of code written in high-level .NET languages.<br/>
 > Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
 
-### 1.3 What is _"Unmanaged code interoperability"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
+#### 1.1.2 What is _"Unmanaged code interoperability"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
 > When the runtime allows passing the boundaries between managed and unmanaged world, it is called **interoprability** or **interop**.
 
 ### Value / Reference types memory allocation
