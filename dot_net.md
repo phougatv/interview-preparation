@@ -2,12 +2,12 @@
 
 ## 1. [Memory Management](https://docs.microsoft.com/en-us/dotnet/standard/managed-code)
 
-### 1.1 [What is _"Managed Code"_?](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#what-is-managed-code)
+### 1.1 What is _"Managed Code"_?
 > Code whose execution is managed by a runtime (_in this case CLR, regardless of the implementation for e.g. Mono, .NET Framework, .NET Core/.NET 5+_) is called **_managed code_**.<br/>
 > Managed code is written in one of the high-level languages that can be run on top of .NET such as C#, F# and others.
 > <br/>
 > <br/>
-> CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few.
+> CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few...[more](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#what-is-managed-code)
 
 #### 1.1.1 [Intermediate Language](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
 > IL (intermediate language) is a product of compilation of code written in high-level .NET languages.<br/>
