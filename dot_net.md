@@ -13,7 +13,7 @@
 > Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
 
 ### 1.3 What is _"Unmanaged code interoperability"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#unmanaged-code-interoperability)
-> 
+> When the runtime allows passing the boundaries between managed and unmanaged world, it is called **interoprability** or **interop**.
 
 ### Value / Reference types memory allocation
 > [The Truth About Value Types](https://docs.microsoft.com/en-us/archive/blogs/ericlippert/the-truth-about-value-types)<br/>
