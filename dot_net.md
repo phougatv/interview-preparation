@@ -26,7 +26,8 @@
 > All [reference types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/reference-types) are allocated on the managed heap...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#allocating-memory)
 
 #### 1.2.2 Releasing Memory
-> ...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory)
+> The GC's optimizing engine determines the best time to perform a collection based on the allocations being made.<br/>
+> When the GC performs a collection, it releases the memory for objects that are no longer being used by the application. It determines which objects are no longer being used by examining the application's roots. Every application has a set of roots. Each root either refers to an object on the managed heap or is set to null...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#releasing-memory)
 
 #### 1.2.3 Generations and Performance
 > ...[more](https://docs.microsoft.com/en-us/dotnet/standard/automatic-memory-management#generations-and-performance)
