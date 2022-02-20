@@ -9,7 +9,7 @@
 > CLR is in charge of taking the managed code, compiling it into machine code then executing it. On top of that, it provides important services such as, _automatic memory management, security boundaries, and type safety_ just to name a few.
 
 ### What is _"Intermediate Language"_? - [link](https://docs.microsoft.com/en-us/dotnet/standard/managed-code#intermediate-language--execution)
-> Code written in high-level .NET languages, upon compilation generates binary made out of IL (intermediate language).<br/>
+> IL (intermediate language) is a product of compilation of code written in high-level .NET languages.<br/>
 > Intermediate Language is sometimes also called Common Intermediate Language (CIL) or Microsoft Intermediate Language (MSIL).<br/>
 
 ### Value / Reference types memory allocation
